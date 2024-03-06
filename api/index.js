@@ -27,7 +27,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://rami-saas-ai-chatbot.vercel.app/api",
+      "https://rami-saas-chatbot.vercel.app/api",
     ],
     methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true,
